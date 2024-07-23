@@ -57,7 +57,7 @@ header{
 
 .main-div1{
     display: flex;
-    background-image: url(/images/background.jpg);
+    background-image: url(images/background.jpg);
     height:45rem;
     background-size: cover;
 }
