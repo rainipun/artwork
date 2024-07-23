@@ -57,7 +57,7 @@ header{
 
 .main-div1{
     display: flex;
-    background-image: url(/images/background.jpg);
+    background-image: url(/images/header\ background\ copy.jpg);
     height:45rem;
     background-size: cover;
 }
@@ -123,20 +123,20 @@ header{
 
 .frame{
     /* background-color: #ACE1AF; */
-    height:800px;
+    height:850px;
     background-color:rgb(33, 70, 88);
 }
 
   .main-div2-heading h1{
     /* color:rgb(26, 58, 74); */
-    color: #ACE1AF;
-    margin-left:4rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width:30rem;
+    text-align: center;
+    color:#FF7D29;
     font-size:3rem;
+    margin-left:4rem;
+    font-family:'Times New Roman', Times, serif;
+    width:30rem;
     padding-left:27rem;
     padding-top:7rem;
-    text-decoration: underline;
   }
 
   .main-div2 {
@@ -154,16 +154,21 @@ header{
 
 /* hover */
 .container {
+    height:850px;
+    width:auto;
     display: flex;
     justify-content: space-around;
-    margin-top:10rem;
+    padding-top:10rem;
+    margin-top: 1rem;
     margin-bottom:10rem;
+    background-image:url(/images/background.jpg);
+    background-size: cover;
 }
 
 .image-container {
     position: relative;
-    width: 400px; /* Adjust width as needed */
-    height: 400px; /* Adjust height as needed */
+    width: 350px; /* Adjust width as needed */
+    height: 350px; /* Adjust height as needed */
     overflow: hidden;
 }
 
